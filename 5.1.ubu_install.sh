@@ -4,7 +4,7 @@ echo "########################################"
 echo "Installing Package"
 echo "########################################"
 sudo apt update
-sudo apt install tree
+sudo apt install tree -y
 echo
 
 echo "########################################"
