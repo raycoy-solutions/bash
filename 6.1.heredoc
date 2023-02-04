@@ -1,0 +1,7 @@
+
+cat > newfile << WHATEVER
+You are 
+not going
+to see
+this!
+WHATEVER
