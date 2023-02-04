@@ -1,9 +1,14 @@
 #!/bin/bash
 
 echo "########################################"
-echo "Installing Package"
+echo "Updating Package Repositories"
 echo "########################################"
 sudo apt update
+echo
+
+echo "########################################"
+echo "Installing Package"
+echo "########################################"
 sudo apt install tree -y
 echo
 
